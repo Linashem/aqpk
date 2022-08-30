@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акваленд</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/hamburgers.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <!-- header start  -->
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header__top-nav">
+                <div class="header__logo">
+                    <a href="index.html" class="header__logo-link">
+                        <img class="header__logo-pic" src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header__info">
+                    <div class="header__address header__info-item">Нижний Новгород, ул. Октябрьской Революции, дом 33а
+                    </div>
+                    <a href="tel:+7 987-765-65-65" class="header__tel header__info-item">+7 987-765-65-65</a>
+                    <div class="header__work-time header__info-item">10:00 - 22:00</div>
+                </div>
+            </nav>
+            <button class="hamburger hamburger--squeeze header__menu-toogle-all" type="button"
+                onclick="this.classList.toggle('is-active');"><span class="header__text-else"></span>
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <nav class="header__bottom-nav">
+
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="index.html" class="header__link">О нас</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="page-price.html" class="header__link">Тарифы и скидки</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="page-children.html" class="header__link">Для детей</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">Аквазона</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">Спортивная зона</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="" class="header__link">Спа-зона</a>
+                    </li>
+                    <li class="header__item header__item--hidden">
+                        <a href="" class="header__link">Зона питания</a>
+                    </li>
+                    <li class="header__item header__item--hidden">
+                        <a href="" class="header__link">Правила посещения</a>
+                    </li>
+                    <li class="header__item header__item--hidden">
+                        <a href="" class="header__link">Полезная информация</a>
+                    </li>
+                    <li class="header__item header__item--else">
+                        <button class="hamburger hamburger--squeeze header__menu-toogle" type="button"
+                            onclick="this.classList.toggle('is-active');"><span class="header__text-else">Ещё</span>
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <ul class="header__menu-else">
+                            <li class="header__item-else">
+                                <a href="" class="header__link-else">Зона питания</a>
+                            </li>
+                            <li class="header__item-else">
+                                <a href="" class="header__link-else">Правила посещения</a>
+                            </li>
+                            <li class="header__item-else">
+                                <a href="" class="header__link-else">Полезная информация</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <main>
+        <div class="wrapper">
+            <div class="main__banner main__banner--children">
+                <img class="main__img" src="img/main-img-children.jpg" alt="Акваленд">
+                <h1 class="main__banner-title">Для детей</h1>
+            </div>
+        </div>
+
+        <!-- section pools start -->
+        <section class="childrens-pools">
+            <div class="wrapper">
+                <h2 class="childrens-pools__title blue-title">Бассейны</h2>
+                <div class="wrapper__children-pool">
+                <p class="childrens-pools__subtitle">В Акваленде для детей предусмотрено два
+                    бассейна “Детская пена” и “Игровой городок”</p>
+                <div class="childrens-pools__box">
+                    <div class="childrens-pools__photo-1">
+                        <img src="img/pool-child-1.jpg" alt="pool" class="childrens-pools__pic">
+                    </div>
+                    <div class="childrens-pools__info">
+                        <p class="childrens-pools__desc">“Деская пена” - это специальная трехполосная
+                            горка, которая приводняется в специальный
+                            детский бассейн</p>
+                        <p class="childrens-pools__desc">“Игровой городок” - это второй отдельный бассейн,
+                            глубина которого составляет 0,4 метра.
+                            Это позволяет находиться в нем детям любого возраста</p>
+                    </div>
+                </div>
+                <div class="childrens-pools__photo-2">
+                    <img src="img/pool-child-2.jpg" alt="pool" class="childrens-pools__pic">
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- section pools end -->
+
+        <!-- childrens-slides start -->
+        <section class="childrens-slides">
+            <div class="wrapper">
+                <h2 class="childrens-slides__title blue-title">Горки</h2>
+                <div class="childrens-slides__cards">
+                    <div class="childrens-slides__card">
+                        <div class="childrens-slides__card-photo">
+                            <img src="img/child-slide1.jpg" alt="Аттракцион “Лодка”">
+                        </div>
+                        <div class="childrens-slides__card-text">Аттракцион “Лодка”
+                            Высота - 1,7 метра,
+                            длина - 6 метров
+                            </div>
+                    </div>
+                    <div class="childrens-slides__card">
+                        <div class="childrens-slides__card">
+                            <div class="childrens-slides__card-photo">
+                                <img src="img/child-slide2.jpg" alt="Аттракцион “Какаду”">
+                            </div>
+                            <div class="childrens-slides__card-text">Аттракцион “Какаду”
+                                Высота - 2,2 метра,
+                                длина - 12 метров
+                                
+                                </div>
+                        </div>
+                    </div>
+                    <div class="childrens-slides__card"><div class="childrens-slides__card">
+                        <div class="childrens-slides__card-photo">
+                            <img src="img/child-slide3.jpg" alt="Аттракцион “Акуленок”">
+                        </div>
+                        <div class="childrens-slides__card-text">Аттракцион “Акуленок”
+                            Высота - 4,5 метра,
+                            длина - 11 метров
+                            
+                            </div>
+                    </div></div>
+                    <div class="childrens-slides__card">
+                        <div class="childrens-slides__card">
+                            <div class="childrens-slides__card-photo">
+                                <img src="img/child-slide4.jpg" alt="Аттракцион “Ниагара”">
+                            </div>
+                            <div class="childrens-slides__card-text">Аттракцион “Ниагара”
+                                Высота - 4 метра,
+                                длина - 12 метров
+                                
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- childrens-slides end -->
+
+        <!-- childrens-playzone start-->
+        <section class="childrens-playzone">
+            <div class="wrapper">
+                <h2 class="childrens-playzone__title blue-title">Детская игровая зона</h2>
+                <div class="childrens-playzone__cards">
+                    <div class="childrens-playzone__card"><img src="img/childrens-playzone1.jpg" alt="Детская игровая зона"></div>
+                    <div class="childrens-playzone__card"><img src="img/childrens-playzone2.jpg" alt="Детская игровая зона"></div>
+                    <div class="childrens-playzone__card"><img src="img/childrens-playzone3.jpg" alt="Детская игровая зона"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- childrens-playzone end-->
+
+         <!-- location start -->
+         <section class="location">
+            <div class="wrapper">
+                <h2 class="location__title blue-title">Местоположение:</h2>
+                <div class="location__map">
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa6ae144c7da1c8559a8da6201f1e07dc5b517a99422972fb965c1481f4d07602&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+        </section>
+        <!-- location end -->
+    </main>
+
+
+   <!-- footer start -->
+   <footer class="footer">
+    <div class="wrapper">
+        <div class="footer__top-menu">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    <a href="index.html" class="footer__logo-link">
+                        <img class="footer__logo-pic" src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <!-- контакты в футере -->
+                <div class="footer__contacts">
+                    <div class="footer__contact-column">
+                        <div class="footer__contact-title">Контакты</div>
+                        <p class="footer__contact-subtitle">
+                            <a href="mailto:aqualand@info.ru"
+                                class="footer__contact-desc footer__contact-desc--mail">aqualand@info.ru</a> 
+                            <a href="tel:+7 987-765-65-65" class="footer__contact-desc">+7 987-765-65-65</a>
+                        </p>
+                    </div>
+                    <div class="footer__contact-column">
+                        <div class="footer__contact-title">Адрес</div>
+                        <p class="footer__contact-desc footer__contact-subtitle">
+                            Нижний Новгород, ул. Октябрьской Революции, дом 33а
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- ссылки на социальные сети -->
+            <div class="footer__social">
+                <ul class="social-list">
+                    <li class="social-list__item"><a href="#!" target="_blank">
+                            <svg width="51" height="38" viewBox="0 0 51 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M33.3498 16.8773L22.0828 10.977C21.4349 10.6378 20.6692 10.6505 20.0342 11.0106C19.3988 11.371 19.0198 12.0078 19.0198 12.7146V24.4138C19.0198 25.1172 19.3964 25.7529 20.0276 26.1137C20.3571 26.3022 20.7225 26.3968 21.0886 26.3968C21.424 26.3968 21.7602 26.3174 22.0695 26.1581L33.337 20.3595C34.0058 20.015 34.4233 19.3496 34.4264 18.6223C34.4291 17.895 34.0167 17.2266 33.3498 16.8773ZM22.0084 22.9421V14.1983L30.4292 18.6081L22.0084 22.9421Z"
+                                    fill="white" />
+                                <path
+                                    d="M50.6245 9.30173L50.6222 9.27939C50.579 8.88651 50.149 5.39197 48.374 3.61453C46.3223 1.52391 43.9963 1.26994 42.8776 1.14817C42.785 1.13811 42.7002 1.1288 42.6243 1.11912L42.5352 1.11018C35.793 0.640968 25.6107 0.576917 25.5088 0.576544L25.4998 0.576172L25.4909 0.576544C25.3889 0.576917 15.2067 0.640968 8.4037 1.11018L8.31382 1.11912C8.24145 1.12843 8.16168 1.137 8.07491 1.14668C6.9691 1.26882 4.66799 1.52317 2.61045 3.68938C0.919823 5.44783 0.431119 8.86752 0.380925 9.25183L0.375089 9.30173C0.359914 9.46521 0 13.3571 0 17.2643V20.9167C0 24.8239 0.359914 28.7157 0.375089 28.8796L0.377812 28.9042C0.421002 29.2907 0.850564 32.7212 2.61745 34.4994C4.54659 36.52 6.98583 36.7874 8.29786 36.9311C8.50525 36.9538 8.68385 36.9732 8.80564 36.9937L8.92353 37.0093C12.8164 37.3638 25.022 37.5385 25.5395 37.5456L25.5551 37.546L25.5706 37.5456C25.6726 37.5452 35.8544 37.4812 42.5967 37.0119L42.6858 37.003C42.771 36.9922 42.8667 36.9825 42.9718 36.9721C44.0714 36.8604 46.36 36.6284 48.3892 34.4916C50.0798 32.7328 50.5689 29.3131 50.6187 28.9291L50.6245 28.8792C50.6397 28.7154 51 24.8239 51 20.9167V17.2643C50.9996 13.3571 50.6397 9.46559 50.6245 9.30173ZM48.011 20.9167C48.011 24.533 47.681 28.2573 47.6499 28.5992C47.523 29.541 47.0075 31.7046 46.1838 32.5615C44.9138 33.8987 43.6091 34.0313 42.6566 34.1277C42.5414 34.1393 42.4348 34.1505 42.3383 34.162C35.8171 34.6133 26.0192 34.6826 25.5679 34.6852C25.0617 34.6781 13.0347 34.502 9.26049 34.1665C9.06711 34.1363 8.85816 34.1132 8.63793 34.0894C7.52084 33.9669 5.99169 33.7993 4.81584 32.5615L4.78822 32.5332C3.9789 31.7262 3.47813 29.703 3.3509 28.6104C3.32716 28.3519 2.98865 24.5837 2.98865 20.9167V17.2643C2.98865 13.652 3.31782 9.93182 3.34973 9.58289C3.50109 8.47353 4.02637 6.441 4.81584 5.6195C6.12476 4.24165 7.50489 4.08896 8.41771 3.98804C8.50486 3.97836 8.58618 3.96943 8.66128 3.96012C15.2775 3.50654 25.1457 3.43914 25.4998 3.43653C25.8539 3.43876 35.7186 3.50654 42.2761 3.96012C42.3566 3.9698 42.4446 3.97948 42.5391 3.98991C43.478 4.09232 44.897 4.24723 46.1993 5.57668L46.2114 5.58897C47.0207 6.39594 47.5215 8.45454 47.6487 9.56911C47.6713 9.81303 48.011 13.5895 48.011 17.2643V20.9167Z"
+                                    fill="white" />
+                            </svg>
+                        </a></li>
+                    <li class="social-list__item"><a href="#!" target="_blank">
+                            <svg width="57" height="38" viewBox="0 0 57 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M53.5504 37.546H47.5832C45.4645 37.546 44.373 36.2584 42.5675 34.1243C41.8391 33.2677 40.947 32.2121 39.7583 30.95C37.3761 28.5151 35.6014 27.2199 34.6452 27.2199C34.5076 27.2199 34.4103 27.225 34.3439 27.2301C34.23 27.7732 34.2419 29.2647 34.2585 30.9628C34.2656 31.7761 34.2727 32.7169 34.2727 33.8082C34.2727 36.9085 32.0923 37.546 28.8204 37.546C21.7998 37.546 14.6344 33.0101 9.64951 25.4122C2.43195 14.6757 0 5.97121 0 3.65104C0 1.69801 1.17683 0.578721 3.23153 0.578721H9.20108C11.6947 0.578721 12.4753 2.28443 13.0115 3.88051C15.9299 12.9292 20.2125 19.1274 21.6242 19.8999C21.6527 19.6959 21.6788 19.3619 21.6788 18.8239V9.48716C21.5673 7.31232 20.8887 6.41995 20.2908 5.62956C19.8305 5.02529 19.3109 4.34199 19.3109 3.30429C19.3109 1.99122 20.3477 0.576172 22.0181 0.576172H31.3995C32.7092 0.576172 34.268 1.20338 34.268 4.18391V16.7358C34.268 16.9143 34.2775 17.0545 34.2917 17.1616C34.5788 17.0061 35.115 16.6287 35.9881 15.7006C40.0548 10.8742 43.0301 3.23545 43.0586 3.15896C43.7301 1.466 45.0042 0.576172 46.7504 0.576172H52.7176C53.949 0.576172 54.8411 0.963718 55.3678 1.72606C55.7166 2.22834 56.0512 3.12581 55.6573 4.54851C55.6549 4.55616 55.6526 4.56381 55.6502 4.57401C54.8055 8.30158 48.7079 17.7021 47.4717 19.4461L47.4765 19.4486C47.3697 19.6296 47.0897 20.109 47.0873 20.2364C47.0873 20.2364 47.1016 20.3894 47.4053 20.8025C47.41 20.8101 47.4171 20.8203 47.4243 20.828C47.5524 20.9937 47.9201 21.3863 48.4303 21.9396C54.2432 28.2194 57.8923 32.977 56.8104 35.7714C56.4925 36.5822 55.6739 37.546 53.5504 37.546ZM34.6476 24.6703C35.841 24.6703 37.5754 25.2006 41.4144 29.1194C42.6553 30.4376 43.5758 31.5237 44.3256 32.4084C46.0624 34.4583 46.5582 34.9963 47.588 34.9963H53.5551C54.2835 34.9963 54.5778 34.8408 54.6228 34.7847C54.7913 34.3818 54.7391 32.3727 46.7481 23.7371C46.124 23.0614 45.6899 22.5745 45.538 22.3756C44.2165 20.5679 44.7242 19.367 45.4668 18.0947C45.5238 17.9928 45.5973 17.9035 45.678 17.8245C46.6199 16.3992 52.7437 6.94772 53.3582 3.91365C53.3701 3.85501 53.3867 3.79637 53.4057 3.74028C53.4887 3.41137 53.4626 3.26094 53.4579 3.2329H53.4555C53.4341 3.2329 53.2443 3.12581 52.7176 3.12581H46.7504C45.837 3.12581 45.4906 3.53375 45.2462 4.14567C45.1228 4.46437 42.0835 12.2612 37.6988 17.4624C36.3867 18.8596 34.7401 20.3231 33.2572 19.6526C32.6356 19.3747 31.8953 18.6429 31.8953 16.7332V4.18391C31.8953 3.38587 31.7672 3.18445 31.7577 3.17171C31.753 3.17171 31.6581 3.12581 31.3995 3.12581H22.0157C21.7571 3.12581 21.6859 3.27114 21.6812 3.30939C21.6812 3.43177 21.8971 3.71733 22.1272 4.01819C22.8295 4.94371 23.8924 6.34346 24.0514 9.41577L24.0538 18.8214C24.0538 20.0223 24.0538 22.5184 21.7642 22.5184C18.3856 22.5184 13.1207 12.0011 10.7741 4.73209C10.2593 3.2023 9.98643 3.12836 9.20108 3.12836H3.23153C2.37264 3.12836 2.37264 3.27114 2.37264 3.65104C2.37264 4.67344 4.07144 12.7609 11.5808 23.9309C16.1292 30.8659 22.5733 34.9963 28.8228 34.9963C31.9025 34.9963 31.9025 34.4991 31.9025 33.8082C31.9025 32.7271 31.8953 31.7914 31.8882 30.9857C31.8574 27.5284 31.8455 26.2332 32.6498 25.3612C33.2122 24.7544 33.9429 24.6703 34.6476 24.6703Z"
+                                    fill="white" />
+                            </svg>
+
+                        </a></li>
+                    <li class="social-list__item"><a href="#!" target="_blank">
+                            <svg width="39" height="39" viewBox="0 0 39 39" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M28.4431 0.576172H10.5569C4.73575 0.576172 0 5.18353 0 10.8469V28.2484C0 33.9115 4.73575 38.5188 10.5569 38.5188H28.4434C34.2643 38.5188 39 33.9115 39 28.2484V10.8469C39 5.18353 34.2643 0.576172 28.4431 0.576172ZM36.7137 28.2484C36.7137 32.685 33.0036 36.2945 28.4431 36.2945H10.5569C5.99645 36.2945 2.28635 32.685 2.28635 28.2484V10.8469C2.28635 6.41005 5.99645 2.80053 10.5569 2.80053H28.4434C33.0036 2.80053 36.7137 6.41005 36.7137 10.8469V28.2484Z"
+                                    fill="white" />
+                                <path
+                                    d="M19.5 9.17285C13.6199 9.17285 8.83624 13.8268 8.83624 19.5475C8.83624 25.2682 13.6199 29.9222 19.5 29.9222C25.3801 29.9222 30.1638 25.2682 30.1638 19.5475C30.1638 13.8268 25.3801 9.17285 19.5 9.17285ZM19.5 27.6978C14.8809 27.6978 11.1226 24.0417 11.1226 19.5475C11.1226 15.0536 14.8809 11.3972 19.5 11.3972C24.1194 11.3972 27.8774 15.0536 27.8774 19.5475C27.8774 24.0417 24.1194 27.6978 19.5 27.6978Z"
+                                    fill="white" />
+                                <path
+                                    d="M30.4188 5.48835C28.6811 5.48835 27.2677 6.86367 27.2677 8.55394C27.2677 10.2445 28.6811 11.6198 30.4188 11.6198C32.1564 11.6198 33.5701 10.2445 33.5701 8.55394C33.5701 6.86338 32.1564 5.48835 30.4188 5.48835ZM30.4188 9.39517C29.9421 9.39517 29.5541 9.01769 29.5541 8.55394C29.5541 8.0899 29.9421 7.71271 30.4188 7.71271C30.8957 7.71271 31.2837 8.0899 31.2837 8.55394C31.2837 9.01769 30.8957 9.39517 30.4188 9.39517Z"
+                                    fill="white" />
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- копирайт -->
+        <div class="footer__copyright"> © 2022 AQUALEND. Все права защищены </div>
+
+    </div>
+</footer>
+
+<!-- footer end -->
+
+</body>

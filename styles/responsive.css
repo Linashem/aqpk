@@ -1,0 +1,439 @@
+@media screen and (max-width: 1000px) {
+
+    /* планшет 768 */
+    h2 {
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38.73px;
+    }
+
+    .header {
+        height: 100px;
+        position: relative;
+        margin: 0;
+    }
+
+    .header__info {
+        display: none;
+    }
+
+    .header__bottom-nav {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .header__logo {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    .header__menu-toogle {
+        display: none;
+    }
+
+    .header__menu-toogle-all {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+    }
+
+    .header__menu-toogle-all.is-active+.header__bottom-nav {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .header__item--hidden {
+        display: block;
+    }
+
+    .header__list {
+        position: absolute;
+        top: 30px;
+        right: 0;
+        flex-direction: column;
+        padding: 20px 3px 3px;
+        align-items: flex-start;
+        border: 2px solid #0056B7;
+        border-radius: 5px;
+        background-color: white;
+        z-index: 3;
+        gap: 10px;
+    }
+
+    .header__link {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26.63px;
+        color: #0056B7;
+    }
+
+
+    .main__banner {
+        margin: 0 -20px 0 -20px;
+        height: 380px;
+    }
+
+    .main__img {
+        height: 100%;
+    }
+
+
+    .benefits {
+        padding-bottom: 50px;
+    }
+
+    .benefits__title {
+        margin-bottom: 35px;
+        padding-top: 50px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38.73px;
+    }
+
+    .benefits__desc {
+        margin-bottom: 60px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .benefits__cards {
+        gap: 21px;
+    }
+
+    .benefits__card-title {
+        margin-bottom: 44px;
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .benefits__card-desc {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+
+    .services {
+        padding-bottom: 50px;
+    }
+
+    .services__card-title {
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .services__card-desc {
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    .slider__arrow-svg {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .album {
+        margin-bottom: 19px;
+    }
+
+
+    .reviews {
+        margin-bottom: 50px;
+    }
+
+    .reviews__contact {
+        padding: 30px 80px;
+    }
+
+    .reviews__desc {
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    label {
+        margin-left: 45px;
+    }
+
+    .contact-form__field {
+        grid-template-columns: 160px auto;
+    }
+
+
+    .location {
+        margin-bottom: 50px;
+    }
+
+    .location__map {
+        max-width: 728px;
+    }
+
+
+
+    .footer__top-menu {
+        flex-direction: column;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .footer__contact-title {
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .footer__contact-desc {
+        max-width: 228px;
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    .footer__contacts {
+        gap:75px;
+    }
+
+    .footer__copyright {
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    /* index media end */
+
+    /* page-price media start */
+
+    .main__banner {
+        margin-bottom: 50px;
+    }
+
+    .main__banner--about-us {
+        margin-bottom: 0px;
+    }
+
+    .main__banner-title {
+        bottom: 20px;
+        left: 20px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38.73px;
+    }
+
+    .base-price {
+        margin-bottom: 60px;
+    }
+
+    .base-price__table:last-child {
+        margin: 0;
+    }
+
+    .benefits-price {
+        margin-bottom: 60px;
+    }
+
+    .benefits-price__td-title,
+    .benefits-price__td {
+        padding: 10px;
+    }
+
+    .benefits-price__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+
+    .benefits-price__table{
+        margin-bottom: 30px;
+    }
+    
+
+    
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+    /* mobile 320 */
+
+    h2 {
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+
+    .wrapper {
+        padding: 0 5px;
+    }
+
+    .header {
+        height: 70px;
+    }
+
+    .header__list {
+        top: 15px;
+        gap: 5px;
+    }
+
+
+    .main__banner {
+        margin: 0 -5px 0 -5px;
+        height: 274px;
+    }
+
+    .benefits__title {
+        margin-bottom: 15px;
+        padding-top: 15px;
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+
+    .benefits__desc {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+
+    .benefits__card-title {
+        margin-bottom: 5px;
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+
+    .benefits__card-desc {
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+
+    .benefits__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px 10px;
+    }
+
+
+    .services__slider-nav {
+        visibility: hidden;
+    }
+
+    .album__slide {
+        height: 265px;
+    }
+
+    .album__slide-photo {
+        height: 100%;
+    }
+
+    .swiper-button-next {
+        background: url(../img/arrow-right40.svg)no-repeat; right: 0;
+    }
+
+    .swiper-button-prev {
+        background: url(../img/arrow-left40.svg) no-repeat; left: 0;
+    }
+
+
+    .reviews__desc {
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+
+    .reviews__contact {
+        padding: 15px 10px;
+    }
+
+    label {
+        display: none;
+    }
+
+    .contact-form__field {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .input-field::placeholder,
+    .contact-form__textarea::placeholder {
+        visibility: visible;
+    }
+
+
+    .location__map {
+        height: 300px;
+    }
+
+
+    .footer__logo {
+        display: none;
+    }
+    
+    .footer__contacts {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .footer__contact-column {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        max-width: 100%;
+    }
+    .footer__row {
+        width: 100%;
+    }
+
+    .footer__contact-desc {
+        max-width: 186px;
+    }
+    .footer__top-menu {
+        align-items: flex-start;
+    }
+    .footer__social {
+        width: 100%;
+    }
+
+    .social-list {
+        justify-content: center;
+        background-color: #225389;
+        margin: 20px -5px;
+    }
+
+    .footer__copyright {
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+    /* index media end */
+
+
+    /* page-price media start */
+
+    .main__banner {
+        margin-bottom: 30px;
+    }
+
+    .main__banner--about-us {
+        margin-bottom: 0px;
+    }
+
+
+    .main__banner-title {
+        bottom: 10px;
+        left: 5px;
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+
+
+
+   
+
+}
